@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "title": {
+    "zh-cn": "ytw1981 的 DSH 插件市场",
+    "en": "ytw1981's DSH plugin market"
+  },
+  "description": {
+    "zh-cn": "由 GitHub 托管的 DSH 组合包索引：浏览并安装插件，安装走后端 pnpm。",
+    "en": "A GitHub-hosted index of DSH bundles: browse and install plugins through the host pnpm install."
+  },
+  "metadata": {
+    "categories": {
+      "ui": { "title": { "zh-cn": "界面增强", "en": "Interface" } },
+      "desktop": { "title": { "zh-cn": "桌面互动", "en": "Desktop" } }
+    },
+    "labels": {
+      "featured": { "title": { "zh-cn": "精选", "en": "Featured" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-genui",
+      "title": { "zh-cn": "GenUI 卡片", "en": "GenUI cards" },
+      "description": {
+        "zh-cn": "让模型用 schemaJson 渲染图表、表单、表格等可交互卡片。",
+        "en": "Lets the model render charts, forms and tables as interactive cards from schemaJson."
+      },
+      "homepage": "https://lhuans.github.io/dsh-genui/",
+      "repository": { "url": "https://github.com/lhuans/dsh-genui" },
+      "metadata": {
+        "category": "ui",
+        "keywords": ["genui", "charts", "forms", "cards"],
+        "labels": ["featured"]
+      },
+      "versions": [
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1793775154,
+          "source": { "type": "npm" }
+        }
+      ]
+    },
+    {
+      "name": "dsh-pet",
+      "title": { "zh-cn": "桌面宠物", "en": "Desktop pet" },
+      "description": {
+        "zh-cn": "赖在 DSH 里的蓝色大肥鱼，会在桌面上溜达，可拖拽。",
+        "en": "A blue fat fish that lives inside DSH, wanders on the desktop and can be dragged around."
+      },
+      "homepage": "https://github.com/PC2005-cloud/dsh-pet#readme",
+      "repository": { "url": "https://github.com/PC2005-cloud/dsh-pet" },
+      "metadata": {
+        "category": "desktop",
+        "keywords": ["pet", "desktop", "fun"],
+        "labels": ["featured"]
+      },
+      "versions": [
+        {
+          "version": "0.4.2",
+          "publishTimestamp": 1793802901,
+          "source": { "type": "npm" }
+        }
+      ]
+    }
+  ]
+}
